@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                          DESC
  
  
- s.source = { :path => "."}
+ s.source = {:git => "https://github.com/TianQiLi/HQWX_BIGOTest.git", :tag =>"#{s.version}"}
  s.platform = :ios, '8.0'
  s.requires_arc  = true
  s.vendored_frameworks = 'CStoreMediaEngineKit.framework'
