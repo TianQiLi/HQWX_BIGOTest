@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
  s.license = { :'type' => 'Copyright', :'text' => ' Copyright 2020 tql '}
  s.authors = {"litianqi" => "litianqi@hqwx.com"}
  s.description  = <<-DESC
-                          WKwebview
+                          WKwebview  test testsetstsetstsetstsstest
                          DESC
  
  
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.libraries = 'c++' ,'iconv' , 'z'
   s.resources =  'CStoreMediaEngineKit.framework/*.bundle'
  
-
+    s.xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
 end 
