@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
  s.platform = :ios, '9.0'
  s.requires_arc  = true
  s.vendored_frameworks = 'CStoreMediaEngineKit.framework'
- s.frameworks = 'UIKit','Foundation','CoreGraphics','WebKit','CoreLocation','SystemConfiguration'
+ s.frameworks = 'UIKit','Foundation','CoreGraphics','WebKit','CoreLocation','SystemConfiguration','GLKit','Security'
  #s.libraries = 'sqlite3' , 'c++', 'z'
  s.resources = 'CStoreMediaEngineKit.framework/*.bundle'
  
