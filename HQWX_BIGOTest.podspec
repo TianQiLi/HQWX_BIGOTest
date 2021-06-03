@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
  
  
  s.source = {:git => "https://github.com/TianQiLi/HQWX_BIGOTest.git", :tag =>"#{s.version}"}
- s.platform = :ios, '8.0'
+ s.platform = :ios, '9.0'
  s.requires_arc  = true
  s.vendored_frameworks = 'CStoreMediaEngineKit.framework'
  s.frameworks = 'UIKit','Foundation','CoreGraphics','WebKit','CoreLocation','SystemConfiguration'
  #s.libraries = 'sqlite3' , 'c++', 'z'
- s.resources = 'CStoreMediaEngineKit.framework/*bundle'
+ s.resources = 'CStoreMediaEngineKit.framework/*.bundle'
  
 
 end 
