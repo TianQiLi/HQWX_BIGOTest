@@ -1,6 +1,0 @@
-framework module CStoreMediaEngineKit {
-  umbrella header "CStoreMediaEngineKit.h"
-
-  export *
-  module * { export * }
-}
