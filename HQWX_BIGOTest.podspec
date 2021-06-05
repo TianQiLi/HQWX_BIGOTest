@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
  s.name = 'HQWX_BIGOTest'
- s.version = '0.0.11'
+ s.version = '0.0.12'
  s.summary = 'this is a  BiGO test hqwx  '
  s.homepage = 'https://github.com/TianQiLi/HQWX_BIGOTest.git'
  s.license = { :'type' => 'Copyright', :'text' => ' Copyright 2020 tql '}
