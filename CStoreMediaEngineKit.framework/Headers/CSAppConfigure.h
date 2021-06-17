@@ -18,6 +18,15 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy) NSString* countryCode;
 
+
+/**
+ * 开启音视频无延时模式
+ * 开启该模式后，无论是主播还是观众看到远端的画面都是极小延时的，网络条件好的情况下无延时。
+ * 开启该模式后请确保网络质量良好的情况下观看视频。
+ * 默认是关闭
+*/
+@property (nonatomic, assign) BOOL enableNoDelayMode;
+
 - (void)setCountryCode:(NSString * _Nonnull)countryCode;
 
 @end
